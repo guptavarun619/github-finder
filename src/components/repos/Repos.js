@@ -7,7 +7,7 @@ const Repos = ({ repos }) => {
 };
 
 Repos.propType = {
-    Repos: PropType.array.isRequired
+    repos: PropType.array.isRequired
 };
 
 export default Repos;
